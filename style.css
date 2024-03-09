@@ -45,9 +45,18 @@ header a {
 }
 
 .carousel{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
     margin-top: -50px;
 }
 
-.carousel .list .item{
-    
+.carousel .list .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel .list .item .content{
+    max-width: 80%;
 }
